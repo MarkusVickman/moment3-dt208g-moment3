@@ -1,12 +1,14 @@
 footer {
-    height: 30px;
-    border-width: 4px 0 0 0;
-    border-color: rgb(60, 60, 174);
-    border-style: solid;
-    background-color: rgb(246, 246, 246);
+    height: 35px;
+    background-color: rgb(60, 60, 174);
     bottom: 0;
     position: fixed;
     width: 100%;
     max-width: 100%;
     text-align: center;
+    color: white;
+}
+
+footer p {
+    margin-top: 5px;
 }
