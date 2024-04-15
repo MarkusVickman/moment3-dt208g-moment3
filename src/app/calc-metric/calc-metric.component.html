@@ -1,0 +1,10 @@
+<div id="calc-div">
+    <div id=input-div><input id="writeinput" placeholder="Skriv här:" [(ngModel)]="writeinput"><p id="input-p">{{unit2}}</p></div>
+    <div id=output-div><p id="writetoscreen">=  {{converted}}</p><p id="output-p">{{unit}}</p></div>
+    <div id="btn-div">
+        <button (click)="toMeter()" class="calc-btn">Fot till Meter</button>
+        <button (click)="toFeet()" class="calc-btn">Meter till Fot</button>
+        <button (click)="toCelsius()" class="calc-btn">Fahrenheit till Celsius</button>
+        <button (click)="toFahrenheit()" class="calc-btn">Celsius till Fahrenheit</button>
+    </div>
+</div>
