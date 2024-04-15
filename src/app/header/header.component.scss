@@ -35,7 +35,7 @@ nav {
     top: 15px;
 }
 
-#main-icon{
+#main-icon {
     position: absolute;
     width: 150px;
     top: 10px;
@@ -43,18 +43,18 @@ nav {
     cursor: pointer;
 }
 
-nav a{
-    text-decoration:none;
+nav a {
+    text-decoration: none;
 }
 
 /*menu ul*/
-nav ul{
+nav ul {
     padding-left: 0;
 
     list-style-type: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
 
@@ -85,34 +85,32 @@ header {
     height: 80px;
 }
 
+/*Media querie för små skärmar*/
+@media screen and (min-width: 350px) and (max-width: 800px) {
+    header {
+        height: 120px;
+    }
+
+    .center {
+        padding-top: 50px;
+    }
+}
+
 /*Media querie för extra små skärmar*/
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
+
+    header {
+        height: 120px;
+    }
 
     /*centreringsdiv till meny-knapparna*/
     .center {
-        width: 250px;
-    }
-    
-    /*Meny-knappar*/
-    #cv-btn,
-    #add-btn,
-    #about-btn {
-        padding: 5px;
-    }
+        width: 275px;
+        padding-top: 50px;
     }
 
-    /*Media querie för extra små skärmar*/
-@media screen and (min-width: 300px) and (max-width: 355px) {
-
-    /*centreringsdiv till meny-knapparna*/
-    .center {
-        width: 280px;
-    }
-
-    /*Meny-knappar*/
-    #cv-btn,
-    #add-btn,
-    #about-btn {
+/*Meny-knappar*/
+.meny-btn {
         padding: 10px;
     }
 }
