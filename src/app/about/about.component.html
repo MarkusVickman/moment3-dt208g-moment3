@@ -1,5 +1,41 @@
 <main>
     <article>
-        <p>about works!</p>
+        <h1>Om sidan</h1>
+        <p>Den här webbplatsen är en exempelwebbplats utvecklad i Angular och är ett delmoment i kursen DT208G - Programmering i TypeScript. Uppgiften gick ut på att 
+            skapa en webbplats i ramverket Angular. Webbplatsen innehåller TypeScript-kod för enhetsomvandlaren 
+            och använder scss för styling.
+        </p>
+        <h2>Lösningar</h2>
+        <dl>
+            <dt>Undersidor</dt>
+            <dd>Webbplatsen innehåller tre undersidor, en startsida med enkel information, en sida för enhetskonvertering och en sida som beskriver webbplatsen.</dd>
+            <dt>Enhetskonvertering</dt>
+            <dd>Enhetskonverteraren är byggd som en egen komponent och är implementerad på en undersida. Konverteraren använder Angulars ngmodel och databinding 
+                för att hämta och skriva ut data. Jag valde dock att skriva ut svar och hämtad data i olika fäll med tillägg för enheter för att skapa tydlighet. 
+                Det blev dock lite rörigt att ha alla funktioner på en liten yta. Stylingen försöker likna miniräknaren på "hero"-bilden på startsidan.
+            </dd>
+            <dt>Bilder</dt>
+            <dd>Bilder som är implementerade är en "hero"/banner-bild på startsidan, en namelogotyp i footern och en icon i headern. Bilderna lades till 
+                som vanliga HTML src-länkar.
+            </dd>
+            <dt>Navigering</dt>
+            <dd>I header-komponenten är navigeringen skapad och i den en nav-tagg innehållandes en lista med länkar. Header-komponenten använder modulerna routerLink 
+                och routerLinkActive för att kunna länka mellan sidorna utan att hela sidan laddas om. routerLinkActive används för att en klass ska fetmarkera tillhörande 
+                länk till aktiv sida. 
+            </dd>
+            <dt>Styling</dt>
+            <dd>Scss används för styling. Styling används globalt men främst i .scss-filerna för respektive komponent.</dd>
+            <dt>Komponenter</dt>
+            <dd>Sex komponenter används på webbplatsen. En för varje undersida, en för enhetsomvandlaren, en för footer och en för header.</dd>
+            <dt>Versionshantering</dt>
+            <dd>Under skapandet av webbplatsen har den Versionshanterats på github och källkoden med tillhörande Readme-fil finns att läsa på denna <a href="">länk</a></dd>
+        </dl>
+        <h2>Slutsatser</h2>
+        <p>Angular var väldigt enkelt att arbeta med. Jag gillar hur tydligt det blir med uppdelare komponenter där 
+            komponenternas stiling är i separata filer. Komponenterna kommer även vara lätta att implementera i andra lösningar. 
+            Det var även väldigt smidigt att arbeta med databinding och TypeScript-koden för enhetsomvandlaren. Det krävdes endast 30 rader TypeScript-kod 
+            och kopplingen mellan TypeScript och html var väldigt tydlig.
+        </p>
+        <p>Om jag skulle starta ett eget projekt idag hade Angular definitivt varit en toppkandidat för jobbet.</p>
     </article>
 </main>
