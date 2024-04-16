@@ -1,3 +1,4 @@
+//omfamnande dic av hela omvandlaren
 #calc-div {
     margin-left: auto;
     margin-right: auto;
@@ -9,10 +10,12 @@
     box-shadow: 4px 6px 20px 4px rgba(0, 0, 0, 0.3);
 }
 
+//klass för knapparna
 .calc-btn {
     display: inline-block;
     margin: 15px;
 }
+
 
 button {
     width: 90px;
@@ -30,48 +33,23 @@ button:hover {
     background-color: white;
 }
 
+//Mixin med egenskaper som flera använder
 @mixin input-style {
     background-color: white;
-
     box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
     font-family: "Jersey 10", sans-serif;
     border-style: none;
     display: inline-block;
 }
 
-/*
-#writeinput {
-    margin-bottom: 0px;
-    margin-top: 10px;
-    display: inline-block;
-    width: 165px;
-    height: 40px;
-    border-radius: 10px 0 0 0;
-    padding-left: 10px;
-    @include input-style;
-    text-align: right;
-}
-
-#writetoscreen {
-    margin-bottom: 10px;
-    margin-top: 0px;
-    width: 165px;
-    height: 40px;
-    border-radius: 0 0 0 10px;
-    padding-left: 10px;
-    @include input-style;
-}
-*/
-
+//Mixin med egenskaper som flera använder
 @mixin output-style {
-
-
     display: inline-block;
     width: 45px;
     height: 40px;
 }
 
-
+//Styling av text som skrivs in i omvandlaren
 #input-p {
     @include output-style;
     border-radius: 0 10px 0 0;
@@ -82,6 +60,7 @@ button:hover {
     text-align: left;
 }
 
+//Styling av text som skrivs ut i omvandlaren
 #output-p {
     @include output-style;
     border-radius: 0 0 10px 0;
@@ -90,18 +69,18 @@ button:hover {
     text-align: left;
 }
 
+//Div inkluderar både text-element och input-element
 #input-div {
     margin-left: 15px;
     width: 210px;
-
     margin-bottom: 0px;
     margin-top: 10px;
-
     height: 40px;
     border-radius: 10px 10px 0 0;
     @include input-style;
 }
 
+//Div inkluderar två  text-element
 #output-div{
     margin-left: 15px;
     width: 210px;
@@ -113,6 +92,7 @@ button:hover {
     text-align: right;
 }
 
+//Input element
 #writeinput {
     width: 165px;
     height: 40px;
@@ -127,6 +107,7 @@ button:hover {
     padding-right: 5px;
 }
 
+//Text-element
 #writetoscreen {
     margin-bottom: 10px;
     margin-top: 0px;

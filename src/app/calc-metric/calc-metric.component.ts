@@ -8,6 +8,10 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './calc-metric.component.html',
   styleUrl: './calc-metric.component.scss'
 })
+
+/*Klass som hanterar data till och från html samt beräknar enhetsomvandling.
+Varje metod kallas på i html-koden när en av de fyra knapparna trycks på*/
+
 export class CalcMetricComponent {
 
   converted: number = 0;
