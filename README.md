@@ -6,23 +6,17 @@ Den här webbplatsen är en exempelwebbplats utvecklad i Angular och är ett del
 
 ## Lösningar
 
-**Undersidor**
-Webbplatsen innehåller tre undersidor, en startsida med enkel information, en sida för enhetskonvertering och en sida som beskriver webbplatsen.
+**Undersidor:** Webbplatsen innehåller tre undersidor, en startsida med enkel information, en sida för enhetskonvertering och en sida som beskriver webbplatsen.
 
-### Enhetskonvertering
-Enhetskonverteraren är byggd som en egen komponent och är implementerad på en undersida. Konverteraren använder Angulars ngmodel och databinding för att hämta och skriva ut data. Jag valde dock att skriva ut svar och hämtad data i olika fäll med tillägg för enheter för att skapa tydlighet. Det blev dock lite rörigt att ha alla funktioner på en liten yta. Stylingen försöker likna miniräknaren på "hero"-bilden på startsidan. 
+**Enhetskonvertering:** Enhetskonverteraren är byggd som en egen komponent och är implementerad på en undersida. Konverteraren använder Angulars ngmodel och databinding för att hämta och skriva ut data. Jag valde dock att skriva ut svar och hämtad data i olika fäll med tillägg för enheter för att skapa tydlighet. Det blev dock lite rörigt att ha alla funktioner på en liten yta. Stylingen försöker likna miniräknaren på "hero"-bilden på startsidan. 
 
-### Bilder
-Bilder som är implementerade är en "hero"/banner-bild på startsidan, en namelogotyp i footern och en icon i headern. Bilderna lades till som vanliga HTML src-länkar. 
+**Bilder:** Bilder som är implementerade är en "hero"/banner-bild på startsidan, en namelogotyp i footern och en icon i headern. Bilderna lades till som vanliga HTML src-länkar. 
 
-### Navigering
-I header-komponenten är navigeringen skapad och i den en nav-tagg innehållandes en lista med länkar. Header-komponenten använder modulerna routerLink och routerLinkActive för att kunna länka mellan sidorna utan att hela sidan laddas om. routerLinkActive används för att en klass ska fetmarkera tillhörande länk till aktiv sida. 
+**Navigering:** I header-komponenten är navigeringen skapad och i den en nav-tagg innehållandes en lista med länkar. Header-komponenten använder modulerna routerLink och routerLinkActive för att kunna länka mellan sidorna utan att hela sidan laddas om. routerLinkActive används för att en klass ska fetmarkera tillhörande länk till aktiv sida. 
 
-### Styling
-Scss används för styling. Styling används globalt men främst i .scss-filerna för respektive komponent. 
+**Styling:** Scss används för styling. Styling används globalt men främst i .scss-filerna för respektive komponent. 
 
-###K omponenter
-Sex komponenter används på webbplatsen. En för varje undersida, en för enhetsomvandlaren, en för footer och en för header.
+**Komponenter:** Sex komponenter används på webbplatsen. En för varje undersida, en för enhetsomvandlaren, en för footer och en för header.
 
 
 ## Utveckling
