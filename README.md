@@ -2,7 +2,7 @@
 
 ## Om sidan
 
-Den här webbplatsen är en exempelwebbplats utvecklad i Angular och är ett delmoment i kursen DT208G - Programmering i TypeScript. Uppgiften gick ut på att skapa en webbplats i ramverket Angular. Webbplatsen innehåller TypeScript-kod för enhetsomvandlaren och använder scss för styling.
+Det här är koden för en webbplats utvecklad med Angular. Webbplatsen är en exempelsida utvecklad i Angular och är ett delmoment i kursen DT208G - Programmering i TypeScript. Uppgiften gick ut på att skapa en webbplats i ramverket Angular. Webbplatsen innehåller TypeScript-kod för enhetsomvandlaren och använder scss för styling. För att se exemplet för denna [länk](https://dt208g-metrix.netlify.app/).
 
 ## Lösningar
 
